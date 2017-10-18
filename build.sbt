@@ -5,7 +5,7 @@ lazy val twitterHbcStream = (project in file(".")).
     inThisBuild(List(
       organization := "com.github.nilsga",
       scalaVersion := "2.12.3",
-      version := "0.1.0-SNAPSHOT"
+      version := "0.1.0"
     )),
     name := "Twitter HBC Akka Stream Source",
     libraryDependencies ++= Seq(
